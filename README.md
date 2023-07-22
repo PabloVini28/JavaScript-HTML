@@ -1,3 +1,3 @@
-# JAVASCRIPT SKILLS -
+# JavaScript Skills -  ![TELEGRAM](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-Programação do 0 ao avançado em JS
+## REPOSITÓRIO COM MEUS ESTUDOS NA LINGUAGEM JAVASCRIPT 📚
