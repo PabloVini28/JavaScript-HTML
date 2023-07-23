@@ -1,0 +1,63 @@
+<html>
+    <body>
+        <script>
+            
+            // Calculadora
+
+            function soma(a,b){
+                var resultado = (a+b);
+                return resultado;
+            }
+
+            function sub(a,b){
+                if(a > b){
+                    var resultado = a-b;
+                    return resultado;
+                }
+                else {
+                    var resultado = b-a;
+                    return resultado;
+                }
+            }
+
+            function mult(a,b){
+                var resultado = a*b;
+                return resultado;
+            }
+
+            function div(a,b){
+                if(a > b){
+                    var resultado = a/b;
+                    return resultado;
+                }
+                else {
+                    var resultado = b/a;
+                    return resultado;
+                }
+            }
+
+            var valor1 = parseFloat(prompt("Informe o primeiro valor!"));
+            var valor2 = parseFloat(prompt("Informe o segundo valor!"));
+            var op = (prompt("Informe a operação - + , - , * , /"));
+
+            if(op == '+'){
+                var resultado = soma(valor1,valor2);
+                console.log(resultado);
+            }
+            else if(op == '-'){
+                var resultado = sub(valor1,valor2);
+                console.log(resultado);
+            }
+            else if(op == '*'){
+                var resultado = mult(valor1,valor2);
+                console.log(resultado);
+            }
+            else if(op == '/'){
+                var resultado = div(valor1,valor2);
+                console.log(resultado);
+            }
+
+
+        </script>
+    </body>
+</html>
